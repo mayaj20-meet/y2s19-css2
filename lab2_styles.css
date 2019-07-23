@@ -12,18 +12,28 @@ h1 {
 
 p {
     color: green;
+    position:center;
     font-size: 24pt;
     background-color: lightgreen;
     opacity: .5;
     width: 60%;
 }
 
+img {
+    position:absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);}
 a {
     color:red;
     background-color: pink;
     opacity: .5;
 }
 
+svg {
+    position: center;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+}
 span {
 	background-color: yellow;
     opacity: 1;	
@@ -32,13 +42,17 @@ span {
 form {
 	height: 200px;
 	width: 400px;
+    left: calc(50%);
+    top: calc(50% - 50px);
 	background-color: orange;
     opacity: .9;	
+   
 }
 
 input {
 	background-color: purple;
     opacity: 1;
+    
 }
 
 div {
@@ -46,5 +60,13 @@ div {
 	width: 400px;
 	background-color: blue;
     opacity: .7;
-    	
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+
+}
+
+
+* {
+    margin: 0 auto;
 }
